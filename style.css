@@ -1,0 +1,495 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    width: 1920px;
+    height: 5927px;
+    background-color:white;
+    margin: auto;
+    
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.gamer{
+    display:flex;
+    align-items: center;
+}
+.gamer img{
+    width: 86.041px;
+    height: 40px;
+    
+}
+.gamer p{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+.gamer p span{
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    margin-right:32px ;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+nav ul li input{
+    background: rgba(11, 2, 35, 0.10);
+    background-image: url(images/tik-tok\ 1.svg),url(images/Vector.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position:95% 50%,80%;
+    text-align:left ;
+    padding-left: 25px;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0;
+    color: #3C354F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+   
+}
+
+/* goat section */
+.goat{
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.goat-part-one h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: -80px;
+    
+
+}
+.goat-part-one h3{
+    text-align: center;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:0px;
+}
+.goat-details{
+    display: flex;
+}
+.goat-details p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.primary-one{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.primary-two{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+}
+/* gamer section */
+.gamer{
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+
+}
+.gamer-img img{
+    width: 868px;
+height: 489px;
+flex-shrink: 0;
+
+}
+.gamer-description{
+    text-align: right;
+    margin-right: 232px;
+}
+.gamer-description h3{
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.gamer-btn{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+border: 0;
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+
+}
+.game-description h4{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.gamer-description h5{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* online games section */
+.online-games{
+    background-color: white;
+    text-align: center;
+}
+
+.online-games-description h2{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.online-games-description h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-games-description p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.online-games-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    margin:0px 240px;
+    
+    
+}
+
+.online-games-img p{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
+/* download install section */
+.download-install{
+    background-color: white;
+    display: flex;
+    width: 1920px;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+
+}
+
+.download-install-text{
+    margin-left: 450px;
+    
+}
+
+.download-install-text h2{
+    width: 341px;
+    height: 180px;
+    text-align: right;
+    text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.download-install-text span {
+    
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+
+ 
+}
+.download-install-text p{
+    width: 353px;
+    height: 90px;
+    text-align: right;
+}
+.download-install-img{
+    margin-left: 340px ;
+    
+}
+
+.extra{
+    position: relative;
+    top: 240px;
+    right: 780px;
+}
+
+/* position section */
+.position{
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    display: flex;
+    margin-top: 100px;
+}
+.position-description{
+    margin-left:240px ;
+}
+.career h1{
+    color: #FFF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+.career p{
+    width: 680px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.career-list{
+    display: flex;
+}
+.list-one{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+.list-two{
+    text-align: right;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+.position-btn{
+    color:#FF42A5;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+border: 0;
+background: #FFF;
+}
+
+/* different games section */
+.different-games{
+    background-color: white;
+    padding-top: 120px ;
+    padding-bottom: 120px;
+}
+.games-part-one{
+    display: flex;
+    margin-left: 249px;
+    margin-bottom: 28.17px;
+}
+.games-part-two{
+    display: flex;
+    margin-left: 325px;
+}
+.games-details{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    width: 243px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+}
+.games-details p{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* footer */
+
+.footer{
+    background: #0B0223;
+    padding-bottom: 130px;
+}
+
+.gamer-footer{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 850px;
+    
+}
+.gamer-footer p{
+    color: white;
+    text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gamer-footer p span{
+    color: #FF42A5;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.primary{
+    display: flex;
+    gap:60px;
+    list-style: none;
+    margin-left:550px;
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-img{
+    display: flex;
+    gap: 40px;
+    margin-left: 740px;
+    margin-top: 60px;
+}
+
+.secondary{
+    display: flex;
+    list-style: none;
+    gap:60px ;
+    margin-left: 550px;
+    margin-top: 75px;
+    color: rgba(255, 255, 255, 0.60);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer-end{
+    margin-left: 700px;
+    margin-top:65px ;
+    color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
